@@ -3,6 +3,7 @@
     column-gap: 0ch;
     font-family: Arial, Helvetica, sans-serif;
     align-items: stretch;
+    color: aliceblue;
 }
 .header-item{
     display: flex;
@@ -16,7 +17,7 @@
     
     padding: 20px;
     display: flex;
-    background-color: #21222A;
+    background-color: black;
     justify-content: space-between
 }
 .header-item > li{
@@ -33,28 +34,44 @@
     font-family: 'Poppins';
 }
 .body-items > li {
-    color:black;
     list-style-position: outside;
+    line-height: 2em;
+}
+.body-items > li::marker {
+    color: aqua;
+    font-size: 2em;
 }
 .footer-items{
     display: flex;
-    color: black;
+    color: aqua;
     font-size: 10px;
     justify-content: space-between;
     align-items: center;
-    background-color: bisque;
+    background-color:  aquamarine;
     padding: 20px;
 
+}
+.footer-items> h1{
+    color: black;
 }
 .footer-items >img{
     width: 40px;
 }
 .main-body{
-    margin: 100px;
+    background-color: #21222A;
+    height: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(./Assets/godiva\ black.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 90%;
 }
 .headerno{
     background-color: blue;
 }
 .main-Container{
-    background-color: beige;
+    background-color: #21222A;
 }
