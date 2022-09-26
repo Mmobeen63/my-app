@@ -8,7 +8,7 @@ import siteLogo from "./Assets/godiva.png"
 
 function CustomComponent(){
     return(
-        <div>
+        <div className="main-Container">
             <Header />
             <MainComponent />
             <Footer />
